@@ -8,4 +8,5 @@ int main();
 {
 	char ch="programming is like building a multilingual puzzle";
 	put(ch);
-	return (0;)
+	return (0);
+}
