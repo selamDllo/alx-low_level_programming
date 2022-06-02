@@ -1,11 +1,12 @@
 #include<stdio.h>
 /**
-*	main
-*	return 0
+*	main - print other string
+*	Description: is print some string of word
+*	Return: always 0
 *
 */
-int main()
+int main(void)
 {
-	printf("with proper grammar\nbut the outcome is a piece of art");
+	printf("with proper grammar,but the outcome is a piece of art\n");
 	return (0);
 }
