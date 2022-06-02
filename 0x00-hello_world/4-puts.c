@@ -1,8 +1,8 @@
 #include<stdio.h>
-/** 
+/**
 *	main - print string of program
 *	Description:is string to print by using puts
-*	return:always 0
+*	Return: always 0
 */
 int main(void)
 {
