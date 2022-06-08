@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
 *	_isalpha - check the code
 *	@c: is letter
 *	Description: check the letter
