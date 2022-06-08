@@ -6,9 +6,10 @@
 */
 void print_alphabet(void)
 {
-	for (int a=97;a<=122;a++)
+	int a;
+	for (a=97; a<=122; a++)
 	{
 		putchar(a);
 	}
-	putchar("\n");
+	putchar('\n');
 }
