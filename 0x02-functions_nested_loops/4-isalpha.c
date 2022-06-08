@@ -4,7 +4,7 @@
 *	@c: is letter
 *	Description: check the letter
 *
-*	Return (0);
+*	Return: return 0 or 1
 */
 int _isalpha(int c)
 {
