@@ -1,9 +1,8 @@
 #include<stdio.h>
 /**
 *
-*	main - print putchar
+*	main - print the putchar
 *	Description: to print the word putchar
-*
 *	Return: always zero
 *
 */
