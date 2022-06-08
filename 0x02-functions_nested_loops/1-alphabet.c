@@ -6,6 +6,6 @@
 */
 void print_alphabet(void)
 {
-	string ch="abcdefghijklmnopqrstuvwxyz";
+	char ch="abcdefghijklmnopqrstuvwxyz";
 	printf("ch\n");
 }
