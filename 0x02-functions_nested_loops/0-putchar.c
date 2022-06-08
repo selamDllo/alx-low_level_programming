@@ -1,6 +1,5 @@
 #include<stdio.h>
-/**
-*
+/*
 *	main - print the putchar
 *	Description: to print the word putchar
 *	section header:section main to describe starting place
