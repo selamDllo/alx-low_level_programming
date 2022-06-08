@@ -6,6 +6,9 @@
 */
 void print_alphabet(void)
 {
-	char ch="abcdefghijklmnopqrstuvwxyz";
-	printf("ch\n");
+	for(int a=97;a<=122;a++)
+	{
+		putchar(a);
+	}
+	putchar(\n);
 }
