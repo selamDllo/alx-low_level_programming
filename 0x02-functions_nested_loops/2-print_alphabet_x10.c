@@ -6,7 +6,7 @@
 *
 *
 */
-void print_alphabet_10(void)
+void print_alphabet_x10(void)
 {
 	int a;
 
@@ -16,8 +16,8 @@ void print_alphabet_10(void)
 	{
 		for (a = 97; a <= 122; a++)
 		{
-		putchar(a);
+			putchar(a);
 		}
+		putchar('\n');
 	}
-	putchar('\n');
 }
