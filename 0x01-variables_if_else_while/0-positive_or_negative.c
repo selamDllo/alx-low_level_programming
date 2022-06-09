@@ -1,13 +1,13 @@
 #include<stdio.h>
+#include<main.h>
 /*
-*	main - print the number 
-*	Discription: print number is positive negative 
+*	main - print the number
+*	@n: print n
+*	Discription: print number is positive negative
 *	Return: always 0
 */
-int main(void)
+int main(int n)
 {
-	int n=0;
-
 	if (n > 0)
 	{
 		printf("is positive");
@@ -16,7 +16,7 @@ int main(void)
 	{
 		printf("is negative");
 	}
-	if (n == 0)
+	else
 	{
 		printf("is zero");
 	}
