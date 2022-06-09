@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *	main - tests function that prints if integer
 *	Return: 0
