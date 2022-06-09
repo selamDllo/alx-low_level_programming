@@ -1,12 +1,11 @@
 #include<stdio.h>
-#include<main.h>
 /*
-*	main - print the number
+*	positive_or_negative - print the number
 *	@n: print n
 *	Discription: print number is positive negative
 *	Return: always 0
 */
-int main(int n)
+int positive_or_negative(int n)
 {
 	if (n > 0)
 	{
