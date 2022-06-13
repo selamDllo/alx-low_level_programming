@@ -20,7 +20,7 @@ void print_rev(char *s)
 
 	for (k = i; k >= 0; k--)
 	{
-		putchar(*(s + k));
+		_putchar(*(s + k));
 	}
 	printf("\n");
 }
