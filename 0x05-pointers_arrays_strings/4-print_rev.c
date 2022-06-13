@@ -10,13 +10,17 @@ void print_rev(char *s)
 	int k;
 
 	int i;
+
 	i = 0;
+
 	while (*(s + i) != '\0')
 	{
 		i++;
 	}
+
 	for (k = i; k > 0; k--)
 	{
-		printf("%c\n", *(s + k));
+		printf("%c", *(s + k));
 	}
+	printf("\n");
 }
