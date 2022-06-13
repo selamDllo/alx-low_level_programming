@@ -7,9 +7,8 @@
 */
 void reset_to_98(int *n)
 {
-	int k = 98;
 
-	n = &k;
+	*n = 98;
 
 	printf("%d", *n);
 }
