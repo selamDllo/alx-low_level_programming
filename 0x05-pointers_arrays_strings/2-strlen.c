@@ -7,7 +7,13 @@
 */
 int _strlen(char *s)
 {
-
-	printf("%d\n", _strlen(s));
-	return (0);
+	int len;
+	
+	while(i = '\0')
+	{
+		i++;
+	}
+	
+	
+	return (len);
 }
