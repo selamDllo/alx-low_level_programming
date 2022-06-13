@@ -14,6 +14,9 @@ void rev_string(char *s)
 	int temp;
 
 	int last;
+	
+	char *s_last;
+
 
 	i = 0;
 
@@ -24,10 +27,12 @@ void rev_string(char *s)
 		i++;
 	}
 	last = i - 1;
+	s_last = s + last;
+
 	for (k = 0; k >= (i/2); k++)
 	{
-		temp = *(s + last - k);
-		*(s + last - k) = *(s + k);
+		temp = *(s_last - k);
+		*(s_last - k) = *(s + k);
 		*(s + k) = temp;
 
 	}
