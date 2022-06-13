@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
 *	rev_string - reverse a string
 *	@s: string
 *	Description: function of reverse string
@@ -14,7 +14,7 @@ void rev_string(char *s)
 	char temp;
 
 	int last;
-	
+
 	char *s_last;
 
 
@@ -26,11 +26,11 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	last = i;
+	last = i - 1;
 	/* printf("last = %d\n", last);*/
 	s_last = s + last;
 
-	for (k = 0; k <= (i/2); k++)
+	for (k = 0; k <= (i / 2); k++)
 	{
 		temp = *(s_last - k);
 		*(s_last - k) = *(s + k);
