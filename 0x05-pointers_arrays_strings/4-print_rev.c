@@ -22,5 +22,5 @@ void print_rev(char *s)
 	{
 		printf("%c", *(s + k));
 	}
-	printf("\n");
+	/*printf("\n");*/
 }
