@@ -26,7 +26,7 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	last = i - 1;
+	last = i;
 	/* printf("last = %d\n", last);*/
 	s_last = s + last;
 
