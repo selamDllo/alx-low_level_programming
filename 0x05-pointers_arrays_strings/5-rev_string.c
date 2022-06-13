@@ -11,7 +11,7 @@ void rev_string(char *s)
 
 	int k;
 
-	int temp;
+	char temp;
 
 	int last;
 	
@@ -27,13 +27,14 @@ void rev_string(char *s)
 		i++;
 	}
 	last = i - 1;
+	/* printf("last = %d\n", last);*/
 	s_last = s + last;
 
-	for (k = 0; k >= (i/2); k++)
+	for (k = 0; k <= (i/2); k++)
 	{
 		temp = *(s_last - k);
 		*(s_last - k) = *(s + k);
 		*(s + k) = temp;
-
+		/*printf("k=%d and temp=%c", k, temp);*/
 	}
 }
