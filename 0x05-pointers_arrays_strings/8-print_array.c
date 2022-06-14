@@ -20,6 +20,6 @@ void print_array(int *a, int n)
 		printf("%d, ", *(a + k));
 
 	}
-	printf("%d", *(a + (n - 2));
-	printf("\n")
+	printf("%d", *(a + (n - 2)));
+	printf("\n");
 }
