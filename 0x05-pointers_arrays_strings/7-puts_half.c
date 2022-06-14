@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<math.h>
 /**
 *	puts_half - print string
 *	@str: string
@@ -17,7 +18,7 @@ void puts_half(char *str)
 	k = 0;
 
 	i = strlen(str);
-	for (k = ((i - 1) / 2); k < i; k++)
+	for (k = ceil((i - 1) / 2); k < i; k++)
 	{
 		printf("%c", *(str + k));
 	}
