@@ -25,4 +25,5 @@ void puts2(char *str)
 			printf("%c", *(str + k));
 		}
 	}
+	printf('\n');
 }
