@@ -21,10 +21,7 @@ void puts_half(char *str)
 	}
 	for (k = (i / 2); k > i; k++)
 	{
-		if (*(str + i) % 2 != 0)
-		{
 			printf("%c", *(str + k));
-		}
 	}
 	printf('\n');
 }
