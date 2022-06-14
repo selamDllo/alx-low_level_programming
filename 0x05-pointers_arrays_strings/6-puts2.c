@@ -13,7 +13,7 @@ void puts2(char *str)
 
 	i = 0;
 
-	while (i < '\0')
+	while (i != '\0')
 	{
 
 		i++;
@@ -25,5 +25,5 @@ void puts2(char *str)
 			printf("%c", *(str + k));
 		}
 	}
-	printf('\n');
+	printf("\n");
 }
