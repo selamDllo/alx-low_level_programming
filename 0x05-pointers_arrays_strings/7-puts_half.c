@@ -13,12 +13,21 @@ void puts_half(char *str)
 
 	int k;
 
+	int len;
+
 	i = 0;
 
 	k = 0;
 
 	i = strlen(str);
-	for (k = ceil((i) / 2); k < i; k++)
+	if (i % 2 != 0)
+	{
+		len = (i - 1) / 2;
+	}
+	else 
+		len = i / 2;
+
+	for (k = len; k < i; k++)
 	{
 		printf("%c", *(str + k));
 	}
