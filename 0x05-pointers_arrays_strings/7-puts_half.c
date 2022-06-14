@@ -18,7 +18,7 @@ void puts_half(char *str)
 	k = 0;
 
 	i = strlen(str);
-	for (k = ceil((i - 1) / 2); k < i; k++)
+	for (k = ceil((i) / 2); k < i; k++)
 	{
 		printf("%c", *(str + k));
 	}
