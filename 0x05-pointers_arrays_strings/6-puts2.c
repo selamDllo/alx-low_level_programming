@@ -7,20 +7,20 @@
 */
 void puts2(char *str)
 {
- 	int k;
+	int k;
 
 	int i;
-	
+
 	i = 0;
-	
+
 	while (i < '\0')
 	{
 
 		i++;
 	}
-	for ( k = 0; k<i; k++)
+	for (k = 0; k < i; k++)
 	{
-		if (k%2 != 0)
+		if (k % 2 != 0)
 		{
 			printf("%c", *(str + k));
 		}
