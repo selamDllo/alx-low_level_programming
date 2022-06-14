@@ -15,11 +15,11 @@ void print_array(int *a, int n)
 
 		n++;
 	}
-	for (k = 0; k < (n - 1) ; k++)
+	for (k = 0; k < (n - 3) ; k++)
 	{
 		printf("%d, ", *(a + k));
 
 	}
-	printf("%d", *(a + (n - 2)));
+	/*printf("%d", *(a + (n - 2)));*/
 	printf("\n");
 }
