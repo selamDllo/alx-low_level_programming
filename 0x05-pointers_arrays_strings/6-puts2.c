@@ -20,7 +20,7 @@ void puts2(char *str)
 	}
 	for (k = 0; k < i; k++)
 	{
-		if (k % 2 != 0)
+		if (k % 2 == 0)
 		{
 			printf("%c", *(str + k));
 		}
