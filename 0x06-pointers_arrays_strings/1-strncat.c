@@ -18,9 +18,9 @@ char *_strncat(char *dest, char *src, int n)
 
 	int clen;
 
-	int addnull;
+	/* int addnull; */
 
-	addnull = 0;
+	/* addnull = 0; */
 
 	i = strlen(dest);
 
@@ -33,7 +33,7 @@ char *_strncat(char *dest, char *src, int n)
 	else
 	{
 		clen = n;
-		addnull = 1;
+		/* addnull = 1; */
 	}
 
 
