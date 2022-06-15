@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 	{
 		*(dest + (i - 1) + l) = *(src + l);
 	}
-	*(dest + l) = *(src + k);
+	*(dest + (k + 1)) = *(src + k);
 	return (dest);
 }
 
