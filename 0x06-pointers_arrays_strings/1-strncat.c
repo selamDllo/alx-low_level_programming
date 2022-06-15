@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 /**
-*	*_strncat - concatenate two string
+*	_strncat - concatenate two string
 *	@dest: string
 *	@n: intger
 *	@src: string
@@ -14,7 +14,9 @@ char *_strncat(char *dest, char *src, int n)
 
 	int k;
 
-	int l, clen;
+	int l;
+
+	int clen;
 
 	int addnull;
 
@@ -37,11 +39,11 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (l = 0; l < clen; l++)
 	{
-		*(dest + (i) + l) = *(src + l);
+		*(dest + i + l) = *(src + l);
 	}
 
 	if (addnull == 1)
-		*(dest + (i) + l) = '\0';
+		*(dest + i + l) = '\0';
 
 	return (dest);
 }
