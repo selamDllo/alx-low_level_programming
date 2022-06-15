@@ -14,17 +14,21 @@ char *_strncat(char *dest, char *src, int n)
 
 	int k;
 
-	int l;
+	int l, clen;
+
 
 	i = strlen(dest);
 
 	k = strlen(src);
-	if ( n >= k)
+	if ( k < n)
+		clen = k;
+	else 
+		clen = n;
+
+
+	for (l = 0; l < clen; l++)
 	{
-		for (l = 0; l < n; l++)
-		{
-			*(dest + (i - 1) + l) = *(src + l);
-		}
+		*(dest + (i - 1) + l) = *(src + l);
 	}
 
 	return (dest);
