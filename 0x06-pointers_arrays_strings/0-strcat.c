@@ -18,11 +18,11 @@ char *_strcat(char *dest, char *src)
 	i = strlen(dest);
 	k = strlen(src);
 	
-	for (l = 0; l < (i - 1); l++)
+	for (l = 0; l <= k; l++)
 	{
-		*(dest + (i - 1) + l) = *(src + l);
+		*(dest + i + l) = *(src + l);
 	}
-	*(dest + (k + 1)) = *(src + k);
+
 	return (dest);
 }
 
