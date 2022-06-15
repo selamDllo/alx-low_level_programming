@@ -42,8 +42,9 @@ char *_strncat(char *dest, char *src, int n)
 		*(dest + i + l) = *(src + l);
 	}
 
-	if (addnull == 1)
-		*(dest + i + l) = '\0';
-
+	/** 
+	 * if (addnull == 1)
+	 *	*(dest + i + l) = '\0';
+	 */
 	return (dest);
 }
