@@ -20,13 +20,11 @@ char *_strncat(char *dest, char *src, int n)
 
 	k = strlen(src);
 
-	if (k <= n)
+	for (l = 0; l < n; l++)
 	{
-		for (l = 0; l < n; l++)
-		{
-			*(dest + (i - 1) + l) = *(src + l);
-		}
+		*(dest + (i - 1) + l) = *(src + l);
 	}
+
 
 	return (dest);
 }
