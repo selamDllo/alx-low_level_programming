@@ -16,14 +16,18 @@ char *_strncat(char *dest, char *src, int n)
 
 	int l, clen;
 
-	int addnull = 0;
+	int addnull;
+
+	addnull = 0;
 
 	i = strlen(dest);
 
 	k = strlen(src);
 	
-	if ( k < n)
+	if (k < n)
+	{
 		clen = k;
+	}
 	else
 	{
 		clen = n;
@@ -35,6 +39,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		*(dest + (i - 1) + l) = *(src + l);
 	}
+
 	if (addnull == 1)
 		*(dest + (i - 1) + l) = '\0';
 
