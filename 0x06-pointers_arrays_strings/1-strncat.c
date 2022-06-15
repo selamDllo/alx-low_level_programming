@@ -15,6 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 	int k;
 
 	i = strlen(dest);
+
 	k = strlen(src);
 
 	if (n != '\0')
@@ -23,7 +24,7 @@ char *_strncat(char *dest, char *src, int n)
 		{
 			*(dest + (i - 1) + n) = *(src + n);
 		}
-	}	
+	}
 
 	return (dest);
 }
