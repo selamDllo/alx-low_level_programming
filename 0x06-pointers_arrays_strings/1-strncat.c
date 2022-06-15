@@ -37,11 +37,11 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (l = 0; l < clen; l++)
 	{
-		*(dest + (i - 1) + l) = *(src + l);
+		*(dest + (i) + l) = *(src + l);
 	}
 
 	if (addnull == 1)
-		*(dest + (i - 1) + l) = '\0';
+		*(dest + (i) + l) = '\0';
 
 	return (dest);
 }
