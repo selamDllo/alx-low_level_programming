@@ -15,18 +15,23 @@ char *_strncat(char *dest, char *src, int n)
 	int k;
 
 	int l;
+	
+	int clen;
 
 	i = strlen(dest);
 
 	k = strlen(src);
-
+	
 	if (k <= n)
+		clen = k;
+	else 
+		clen = n;
+
+	for (l = 0; l < clen; l++)
 	{
-		for (l = 0; l < k; l++)
-		{
-			*(dest + i + l) = *(src + l);
-		}
+		*(dest + i + l) = *(src + l);
 	}
+	
 
 	return (dest);
 }
