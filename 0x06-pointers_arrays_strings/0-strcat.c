@@ -20,9 +20,9 @@ char *_strcat(char *dest, char *src)
 	
 	for (l = 0; l < (i - 1); l++)
 	{
-		*(dest + (i - 1)) = *(src + l);
+		*(dest + (i - 1) + l) = *(src + l);
 	}
-	*(dest + (i - 1)) = *(src + k);
+	*(dest + l) = *(src + k);
 	return (dest);
 }
 
