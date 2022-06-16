@@ -1,9 +1,9 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+#include "main.h" 
 /**
 *	reverse_array - copies a string
 *	@a: array
-*	@n: number
 *	Description: copies a string
 */
 char *string_toupper(char *a)
