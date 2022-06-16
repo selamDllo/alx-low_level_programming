@@ -1,5 +1,7 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+#include "main.h"
+
 /**
 *	_strcmp - copies a string
 *	@s1: string
