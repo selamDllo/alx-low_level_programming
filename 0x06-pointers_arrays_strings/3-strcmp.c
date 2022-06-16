@@ -46,19 +46,14 @@ int _strcmp(char *s1, char *s2)
 	}
 	if (k != m)
 	{
-	if (*(s1 + l) == *(s2 + l)
-	{
-	}
-	else if (*(s1 + l) > *(s2 + l)
-	{
-		return (-15);
-	
-	}
-	else if (*(s1 +l) < *(s2 + l)
-	{
-		return (15);
-
-	}
+		if (k < m)
+		{
+			return (-15);
+		}
+		else
+		{
+			return (15);
+		}
 	}
 	return (0);
 }
