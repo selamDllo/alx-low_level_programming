@@ -6,7 +6,7 @@
 *	string_toupper - copies a string
 *	@a: array
 *	Description: copies a string
-*	Return: the char pointer 
+*	Return: the char pointer
 */
 char *string_toupper(char *a)
 {

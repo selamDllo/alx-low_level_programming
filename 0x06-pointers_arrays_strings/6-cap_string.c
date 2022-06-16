@@ -6,7 +6,7 @@
 *	cap_string - copies a string
 *	@a: array
 *	Description: copies a string
-*	Return: the char pointer 
+*	Return: the char pointer
 */
 char *cap_string(char *a)
 {
