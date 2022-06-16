@@ -30,7 +30,8 @@ char *cap_string(char *a)
 			else if (*a == '\0')
 				break;
 		}
-		a++;
+		else
+			a++;
 	}
 	return (res);
 }
