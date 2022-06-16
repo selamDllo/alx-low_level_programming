@@ -6,7 +6,7 @@
 *	@n: intger
 *	@src: string
 *	Description: concatenate two string
-*	Return:always 0
+*	Return: always 0
 */
 char *_strncat(char *dest, char *src, int n)
 {
