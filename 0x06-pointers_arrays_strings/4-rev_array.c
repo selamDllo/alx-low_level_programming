@@ -1,27 +1,22 @@
 #include<stdio.h>
 #include<string.h>
 /**
-*	_strcmp - copies a string
+*	reverse_array - copies a string
 *	@a: array
 *	@n: number
 *	Description: copies a string
-*	Return: always 0
 */
 void reverse_array(int *a, int n)
 {
 
-	int tmp;
+	int tmp, i;
 
-	a.length = l;
-
-	for (n = 0; n > l/2; n++)
+	for (i = 0; i < n / 2; i++)
 	{
-		tmp = a[n];
+		tmp = a[i];
 
-		a[n] = a[l - n];
+		a[i] = a[n - 1 - i];
 
-		a[l - n] = tmp;
-		
+		a[n - 1 - i] = tmp;
 	}
-	return (0);
 }
