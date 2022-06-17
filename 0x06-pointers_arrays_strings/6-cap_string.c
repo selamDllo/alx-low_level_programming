@@ -24,15 +24,19 @@ char *cap_string(char *a)
 		{
 			a++;
 
-			if (*a >= 97 && *a =< 122)
+			if (*a > 97 && *a < 122)
 			{
 				*a -= 32;
 			}
 			else if (*a == '\0')
+			{
 				break;
+			}
 		}
 		else
+		{
 			a++;
+		}
 	}
 	return (res);
 }
