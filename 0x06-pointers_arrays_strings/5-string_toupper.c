@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
-
 /**
 *	string_toupper - copies a string
 *	@a: array
 *	Description: copies a string
-*	Return: the char pointer
+*	Return: always 0
 */
 char *string_toupper(char *a)
 {

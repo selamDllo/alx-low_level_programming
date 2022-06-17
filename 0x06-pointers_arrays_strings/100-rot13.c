@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-*	leet - copies a string
+*	rot13 - copies a string
 *	@a: array
 *	Description: copies a string
 *	Return: the char pointer
