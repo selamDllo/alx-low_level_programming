@@ -3,36 +3,33 @@
 #include "main.h"
 
 /**
-*	cap_string - copies a string
+*	leet - copies a string
 *	@a: array
 *	Description: copies a string
 *	Return: the char pointer
 */
-char *cap_string(char *a)
+char *leet(char *a)
 {
 	char *res;
+	int j;
+	char c[] = {'a', 'e', 'o', 't', 'l' };
+	char d[] = {'A', 'E', 'O', 'T', 'L' };
+	char v[] = {'4', '3', '0', '7', '1' };
+
 
 	res = a;
-
-	while (*a != '\0')
+	for (j = 0; j < 5; j++)
 	{
-		if (*a == '\n' || *a == ',' || *a == ';' ||
-				*a == '.' || *a == '!' ||
-				*a == '?' || *a == '\"'
-				|| *a == '(' || *a == ')' ||
-				*a == '{' || *a == '}' ||
-				*a == ' ' || *a == '\t')
+		while (*a != '\0')
 		{
-			a++;
-			if (*a > 97 && *a < 122)
+			if (*a == c[j] || *a == d[j])
 			{
-				*a -= 32;
+				*a = v[j];
 			}
-			else if (*a == '\0')
-				break;
-		}
-		else
 			a++;
+		}
+		a = res;
 	}
+
 	return (res);
 }
