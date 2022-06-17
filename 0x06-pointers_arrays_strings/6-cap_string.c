@@ -24,7 +24,7 @@ char *cap_string(char *a)
 		{
 			a++;
 
-			if (*a > 97 && *a < 122)
+			if (*a >= 97 && *a =< 122)
 			{
 				*a -= 32;
 			}
