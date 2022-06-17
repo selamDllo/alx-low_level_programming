@@ -22,5 +22,6 @@ char *string_toupper(char *a)
 
 		a++;
 	}
+	printf("\n");
 	return (res);
 }
