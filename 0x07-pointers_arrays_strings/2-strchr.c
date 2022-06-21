@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 /**
-*	*_strchr - locates character
+*	_strchr - locates character
 *	@s, character
 *	@c: character
 *	Description: locates a character
@@ -25,3 +25,4 @@ char *_strchr(char *s, char c)
 	}
 	return (NULL);
 }
+
