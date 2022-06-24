@@ -14,25 +14,27 @@ int main(int argc, char **argv)
 
 	int k;
 
-	int mul;
+	int add;
 
-	mul = 0;
+	add = 0;
 
 	if (argc != 3)
 	{
 		printf("Error");
 
-		return (-1);
+		return (1);
 	}
 
-	i = atoi(argv[1]);
 
-	k = atoi(argv[2]);
+	for (i = 0; i < argc; i++)
+	{
 
-	mul = i * k;
+		k = atoi(argv[i]);
 
-	printf("%d\n", mul);
+		add += k;
 
+		printf("%d\n", add);
+	}
 	return (0);
 
 }
