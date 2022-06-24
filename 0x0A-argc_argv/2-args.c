@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /**
 *	main - print name
 *	@argc: integer
@@ -9,11 +8,12 @@
 */
 int main(int argc, char **argv)
 {
-	if (argv != NULL)
+	int i;
+
+	for (i = 0; i < argc; i++)
 	{
-		printf("%d\n", (argc - 1));
+		printf("argv[%d] = %s\n", i, argv[i]);
 	}
 
 	return (0);
 }
-
