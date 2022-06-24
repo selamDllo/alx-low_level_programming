@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 /**
 *	main - print name
 *	@argc: integer
@@ -28,10 +29,11 @@ int main(int argc, char **argv)
 
 	k = atoi(argv[2]);
 
-		mul = i * k;
+	mul = i * k;
 
-		printf("%d\n", mul);
+	printf("%d\n", mul);
 
 	return (0);
 
 }
+
