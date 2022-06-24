@@ -2,7 +2,7 @@
 /**
 *	main - print name
 *	@ argc: number
-*	@*argv: number
+*	@**argv: character
 *	Description: to print name
 *	Return: always 0
 */
