@@ -1,18 +1,17 @@
 #include<stdio.h>
 /**
 *	main - print name
+*	@argc: integer
+*	@argv: character
 *	Description: to print name
 *	Return: always 0
 */
-int main ()
+int main(int argc, char **argv)
 {
-	int argc;
-
-	char *argv;
-
-	while (gcc--)
+	if (argv != NULL)
 	{
-		printf("%s\n" ,*argv);
+
+	printf("%d\n", argc);
 	}
 	return (0);
 }
