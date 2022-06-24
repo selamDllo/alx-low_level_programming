@@ -21,9 +21,7 @@ int main(int argc, char **argv)
 	{
 		printf("Error");
 		return (-1);
-	 
 	}
-
 	i = atoi(argv[1]);
 
 	k = atoi(argv[2]);
