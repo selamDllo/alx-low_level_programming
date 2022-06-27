@@ -18,25 +18,36 @@ int main(int argc, char **argv)
 
 	add = 0;
 
-	if (argc != 3)
+	if (argc < 3)
 	{
 		printf("Error");
 
 		return (1);
 	}
+	
+	/* check all the input digits are numbers */
+	for (i = 1; i < argc; i++)
+	{
+		char *c = argv[i];
+		
+		while (*c != '\0')
+		{
+			if ((*c < 48) || (*c > 57))
+			{
+				printf("Error");
+				return (0);
+			}
 
+			c++;
+		}
 
-	for (i = 0; i < argc; i++)
+	}
+	
+	for (i = 1; i < argc; i++)
 	{
 
 		k = atoi(argv[i]);
 		
-		if (k == 0)
-		{
-			printf("Error");
-
-			return (1);
-		}
 		add += k;
 
 	}
