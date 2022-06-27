@@ -15,7 +15,11 @@ void _puts_recursion(char *s)
 	i = strlen(s);
 
 	for (k = 0; k < i; k++)
+
 	{
+
 	printf("%c\n", *s);
+
 	}
+
 }
