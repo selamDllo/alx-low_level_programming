@@ -30,7 +30,10 @@ int main(int argc, char **argv)
 
 		while (*c != '\0')
 		{
-			if ((*c < 48) || (*c > 57))
+			if ((c == argv[i]) && (*c == '-'))
+			{
+			}
+			else if ((*c < 48) || (*c > 57))
 			{
 				printf("Error\n");
 				return (1);
