@@ -33,8 +33,10 @@ int main(int argc, char **argv)
 
 		add += k;
 
-		printf("%d\n", add);
 	}
+
+	printf("%d\n", add);
+
 	return (0);
 
 }
