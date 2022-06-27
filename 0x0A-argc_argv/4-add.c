@@ -30,7 +30,13 @@ int main(int argc, char **argv)
 	{
 
 		k = atoi(argv[i]);
+		
+		if (k == 0)
+		{
+			printf("Error");
 
+			return (1);
+		}
 		add += k;
 
 	}
