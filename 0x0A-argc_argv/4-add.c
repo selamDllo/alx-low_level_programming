@@ -17,10 +17,10 @@ int main(int argc, char **argv)
 
 	add = 0;
 
-	if (argc < 3)
+	if (argc == 1)
 	{
-		printf("Error\n");
-		return (1);
+		printf("0\n");
+		return (0);
 	}
 
 	/* check all the input digits are numbers */
