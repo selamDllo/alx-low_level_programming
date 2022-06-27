@@ -12,7 +12,7 @@
 int main(int argc, char **argv)
 {
 	int i, k, add;
-	
+
 	char *c;
 
 	add = 0;
@@ -22,10 +22,12 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
+
 	/* check all the input digits are numbers */
 	for (i = 1; i < argc; i++)
 	{
 		c = argv[i];
+
 		while (*c != '\0')
 		{
 			if ((*c < 48) || (*c > 57))
@@ -35,6 +37,7 @@ int main(int argc, char **argv)
 			}
 			c++;
 		}
+
 		k = atoi(argv[i]);
 		add += k;
 	}
