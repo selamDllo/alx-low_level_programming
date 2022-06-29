@@ -22,9 +22,9 @@ void _print_rev_recursion(char *s)
 	else
 	{
 
-	putchar(*(s + i));
+	putchar(*(s + (i - 1)));
 
-	*(s + i) = '\0';
+	*(s + (i - 1)) = '\0';
 
 	_print_rev_recursion(s);
 
