@@ -2,7 +2,7 @@
 #include<string.h>
 
 /**
-*	_puts_recursion - to print string
+*	_print_rev_recursion - to print string
 *	@s: string
 *	Description: to print the function
 *	Return: always 0
@@ -22,9 +22,9 @@ void _print_rev_recursion(char *s)
 	else
 	{
 
-	putchar(*(s+i));
+	putchar(*(s + i));
 
-	*(s+i) = '\0';
+	*(s + i) = '\0';
 
 	_print_rev_recursion(s);
 
