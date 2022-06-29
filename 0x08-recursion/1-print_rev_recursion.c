@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-
+#include<stdlib.h>
 /**
 *	_print_rev_recursion - to print string
 *	@s: string
@@ -12,9 +12,11 @@ void _print_rev_recursion(char *s)
 {
 	int i;
 
+	char *s2;
+
 	i = strlen(s);
 
-	if (*s == 0)
+	if (i == 0)
 	{
 		putchar('\n');
 		return;
@@ -22,12 +24,13 @@ void _print_rev_recursion(char *s)
 	else
 	{
 
-	putchar(*(s + (i - 1)));
+		s2 = malloc(sizeof(char) * (i - 1));
+		strncpy(s2, s, i - 1);
+		putchar(*(s + i - 1));
 
-	*(s + (i - 1)) = '\0';
-
-	_print_rev_recursion(s);
-
+		_print_rev_recursion(s2);
+		free(s2);
 	}
 
 }
+
