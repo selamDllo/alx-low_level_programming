@@ -16,12 +16,14 @@ void _puts_recursion(char *s)
 
 	if (i == 0)
 	{
+		putchar(\n);
 		return;
 	}
 	else
 	{
 
 	putchar(*s);
+
 
 	s++;
 
