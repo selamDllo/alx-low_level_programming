@@ -20,7 +20,7 @@ void _puts_recursion(char *s)
 	}
 	else
 	{
-	
+
 	putchar(*s);
 
 	s++;
