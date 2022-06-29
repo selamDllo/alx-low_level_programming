@@ -8,13 +8,13 @@
 *	Return: always 0
 */
 
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	int i;
 
 	i = strlen(s);
 
-	if (i == 0)
+	if (*s == 0)
 	{
 		putchar('\n');
 		return;
@@ -22,12 +22,11 @@ void _puts_recursion(char *s)
 	else
 	{
 
-	putchar(*s);
+	putchar(*(s+i));
 
+	*(s+i) = '\0';
 
-	s++;
-
-	_puts_recursion(s);
+	_print_rev_recursion(s);
 
 	}
 
