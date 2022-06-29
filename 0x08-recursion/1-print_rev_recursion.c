@@ -29,7 +29,6 @@ void _print_rev_recursion(char *s)
 		putchar(*(s + i - 1));
 
 		_print_rev_recursion(s2);
-		free(s2);
 	}
 
 }
