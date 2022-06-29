@@ -16,11 +16,18 @@ void _puts_recursion(char *s)
 
 	i = strlen(s);
 
-	for (k = 0; k < i; k++)
-
+	if (i == 0)
 	{
+		return ;
+	}
+	else
+	{
+	
+	_putchar(*s);
 
-	printf("%c\n", *s);
+	s++;
+
+	_puts_recursion(s);
 
 	}
 
