@@ -14,21 +14,19 @@ void _print_rev_recursion(char *s)
 
 	char *s2;
 
-	i = strlen(s);
-
-	if (i == 0)
+	if (*s)
 	{
-		putchar('\n');
-		return;
+		i = strlen(s);
+		s2 = (char *) calloc(i - 1, sizeof(char));
+		putchar(*(s + (i - 1)));
+		strncpy(s2, s, i - 1);
+		s2[i - 1] = '\0';
+		_print_rev_recursion(s2);
 	}
 	else
 	{
-
-		s2 = malloc(sizeof(char) * (i - 1));
-		strncpy(s2, s, i - 1);
-		putchar(*(s + i - 1));
-
-		_print_rev_recursion(s2);
+		putchar('\n');
+		return;
 	}
 
 }
