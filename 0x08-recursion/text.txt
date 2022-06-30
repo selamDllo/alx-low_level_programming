@@ -1,0 +1,185 @@
+
+Colton Walker
+len = 13 
+rs=
+Colton Walke
+Colton Walke
+len = 12 
+es=
+Colton Walk
+Colton Walk
+len = 11 
+ks=
+Colton Wal
+Colton Wal
+len = 10 
+ls=
+Colton Wa
+Colton Wa
+len = 9 
+as=
+Colton W
+Colton W
+len = 8 
+Ws=
+Colton 
+Colton 
+len = 7 
+ s=
+Colton
+Colton
+len = 6 
+ns=
+Colto
+Colto
+len = 5 
+os=
+Colt
+Colt
+len = 4 
+ts=
+Col
+Col
+len = 3 
+ls=
+Co
+Co
+len = 2 
+os=
+C
+C
+len = 1 
+Cs=
+
+
+len = 0 
+
+s=
+Talk is cheap. Show me the code
+len = 31 
+es=
+Talk is cheap. Show me the cod
+Talk is cheap. Show me the cod
+len = 30 
+ds=
+Talk is cheap. Show me the co
+Talk is cheap. Show me the co
+len = 29 
+os=
+Talk is cheap. Show me the c
+Talk is cheap. Show me the c
+len = 28 
+cs=
+Talk is cheap. Show me the 
+Talk is cheap. Show me the 
+len = 27 
+ s=
+Talk is cheap. Show me the
+Talk is cheap. Show me the
+len = 26 
+es=
+Talk is cheap. Show me th
+Talk is cheap. Show me th
+len = 25 
+hs=
+Talk is cheap. Show me t
+Talk is cheap. Show me t
+len = 24 
+ts=
+Talk is cheap. Show me 1ú
+Talk is cheap. Show me 
+len = 23 
+ s=
+Talk is cheap. Show me
+Talk is cheap. Show me
+len = 22 
+es=
+Talk is cheap. Show m
+Talk is cheap. Show m
+len = 21 
+ms=
+Talk is cheap. Show 
+Talk is cheap. Show 
+len = 20 
+ s=
+Talk is cheap. Show
+Talk is cheap. Show
+len = 19 
+ws=
+Talk is cheap. Sho
+Talk is cheap. Sho
+len = 18 
+os=
+Talk is cheap. Sh
+Talk is cheap. Sh
+len = 17 
+hs=
+Talk is cheap. S
+Talk is cheap. S
+len = 16 
+Ss=
+Talk is cheap. 
+Talk is cheap. 
+len = 15 
+ s=
+Talk is cheap.
+Talk is cheap.
+len = 14 
+.s=
+Talk is cheap
+Talk is cheap
+len = 13 
+ps=
+Talk is chea
+Talk is chea
+len = 12 
+as=
+Talk is che
+Talk is che
+len = 11 
+es=
+Talk is ch
+Talk is ch
+len = 10 
+hs=
+Talk is c
+Talk is c
+len = 9 
+cs=
+Talk is 
+Talk is 
+len = 8 
+ s=
+Talk is
+Talk is
+len = 7 
+ss=
+Talk i
+Talk i
+len = 6 
+is=
+Talk 
+Talk 
+len = 5 
+ s=
+Talk
+Talk
+len = 4 
+ks=
+Tal
+Tal
+len = 3 
+ls=
+Ta
+Ta
+len = 2 
+as=
+T
+T
+len = 1 
+Ts=
+
+
+len = 0 
+
+s=
