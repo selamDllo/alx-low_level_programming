@@ -2,7 +2,7 @@
 #include<string.h>
 /**
 *	_strlen_recursion - print length
-*	@*s: string
+*	@s: string
 *	Description: to print length
 *	Return: always 0
 */
@@ -22,6 +22,6 @@ int _strlen_recursion(char *s)
 		s++;
 		_strlen_recursion(s);
 	}
-	return k;
+	return (k);
 
 }
