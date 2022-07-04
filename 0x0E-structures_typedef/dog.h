@@ -1,4 +1,5 @@
-#include<stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 /**
 *	struct dog - to practice structure
 *	@name: string
@@ -16,3 +17,4 @@ struct dog
 	char *owner;
 
 };
+#endif
