@@ -8,7 +8,7 @@
 *       Description: to practice structures
 *       Return: always 0
 */
-struct dog 
+struct dog
 {
 	char *name;
 
