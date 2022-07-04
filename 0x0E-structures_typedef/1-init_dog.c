@@ -1,5 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include<stdio.h>
 /**
 *	struct dog - to practice structure
 *	@name: string
@@ -17,4 +16,12 @@ struct dog
 	char *owner;
 
 };
-#endif
+void init_dog(struct dog *d, char *name, float age, char *owner)
+{
+
+	d -> name = name;
+
+	d -> age = age;
+
+	d -> owner = owner;
+}
