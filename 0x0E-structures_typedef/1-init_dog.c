@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "dog.h"
 /**
-
+*	init_dog -  to practice structures
 *	@age: number
 *	@owner: string
 *	Description: to practice structures
