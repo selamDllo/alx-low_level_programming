@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-*	struct dog - to practice structure
+*	init_dog - to practice structure
 *	@name: string
 *	@age: number
 *	@owner: string
