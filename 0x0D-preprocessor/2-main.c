@@ -7,7 +7,6 @@
 *	Description: to print
 *	return: always 0
 */
-
 int main(void)
 {
 
