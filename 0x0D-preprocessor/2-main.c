@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define x __FILE__
+#define x (__FILE__)
 
 /**
 *	main - print
