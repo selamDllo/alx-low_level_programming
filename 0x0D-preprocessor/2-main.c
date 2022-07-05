@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 #define x __FILE__
 
@@ -7,9 +7,11 @@
 *	Description: to print
 *	return: always 0
 */
+
 int main(void)
 {
-	printf("%s", x);
+
+	printf("%s\n", x);
 
 	return (0);
 }
